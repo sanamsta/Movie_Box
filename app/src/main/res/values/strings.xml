@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Movie_Box</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="Movie_Category">
+        <item>Now Playing</item>
+        <item>Top Rated</item>
+        <item>Popular</item>
+        <item>Upcpoming</item>
+
+
+    </string-array>
+
+
+    <string-array name="movie_request">
+
+        <item>now_playing</item>
+        <item>top_rated</item>
+        <item>popular</item>
+        <item>upcoming</item>
+
+
+    </string-array>
+
+
+    <string-array name="Tv_series">
+        <item>Popular</item>
+        <item>Top Rated</item>
+        <item>On tv</item>
+        <item>Airing today</item>
+
+    </string-array>
+
+    <string-array name="tv_request">
+        <item>popular</item>
+        <item>top_rated</item>
+        <item>on_the_air</item>
+        <item>airing_today</item>
+
+
+    </string-array>
+
+    <string-array name="mp_type">
+        <item>movie</item>
+        <item>tv</item>
+        <item>genre</item>
+        <item>person</item>
+
+
+    </string-array>
+
+    //movie type genres
+
+    <string-array name="genres_tabTitle">
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Crime</item>
+        <item>Documentary</item>
+        <item>Drama</item>
+        <item>family</item>
+        <item>fantasy</item>
+        <item>history</item>
+        <item>horror</item>
+        <item>music</item>
+        <item>mystery</item>
+        <item>romance</item>
+        <item>science fiction</item>
+        <item>tv movie</item>
+        <item>thriller</item>
+        <item>war</item>
+        <item>western</item>
+
+
+    </string-array>
+
+    <string-array name="genre_id">
+
+        <item>28</item>
+        <item>12</item>
+        <item>16</item>
+        <item>35</item>
+        <item>80</item>
+        <item>99</item>
+        <item>18</item>
+        <item>10751</item>
+        <item>14</item>
+        <item>36</item>
+        <item>27</item>
+        <item>10402</item>
+        <item>9648</item>
+        <item>10749</item>
+        <item>878</item>
+        <item>10770</item>
+        <item>53</item>
+        <item>10752</item>
+        <item>37</item>
+
+    </string-array>
+
+
+    <string name="long_latin">
+Of course, some code must have been written to govern the behaviors of the widgets and Views in our samples above. The CoordinatorLayout automatically does all this already. However, you might want to define your own reactions and behaviors, rather than use the default and standard behaviors. It is remarkably easy to do. The complexity lies in how unique a behavior you want, and not in implementing a behavior. Our custom behavior is really simple. From the FabFollowsWidget sample above, we want the CircleImageView to grow larger as the user scrolls to the end of the Cards.
+    </string>
+
+</resources>
